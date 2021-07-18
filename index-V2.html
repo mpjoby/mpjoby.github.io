@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mangals</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="w3-container w3-green" align="center">
+    <h1 style="font-size:30px">Mangals Square</h1>
+	 </div>
+  <div class="container">  
+  <div class="w3-row">
+    <div class="col-sm-4 bg-success">
+      <h4 style="color:blue">Advanced Training/Health</h2>
+      <div class="col-sm-12 bg-success">
+	   <p style="font-size:13px" width="100%">
+		 Looking for an advanced training facility on rented space IIT, 
+         JEE, Entrance, TOEFL, PSC, PUC, Skill training on various category. 
+         The most freely accessible and quite area for training needs. 
+         <p></p>
+         Ayurveda, Dental, Beauty care, Clinic,
+         Gym it will be the finest destination you may looking.
+		</p>
+		<p>
+		</p>
+     
+      </div>
+    </div>
+	<col> </col>
+    <div class="col-sm-5 bg-success">
+      <h4 style="color:blue">Banking/Insurance/Commercial</h2>
+      <div class="col-sm-12 bg-success" width="100%">
+       <p style="font-size:12px" width="100%">
+	   Being a very close premises to bus stand looking for an affordable 
+       stand alone office you are at the right place 
+       <p></p>
+	   We offer you 7 rooms 20*12 feet (1+3+3 Ground, First and Second Floors) with 
+	   4 car parking and two wheeler parking space 50 Metres
+       from Kodakara Bus stand exit road
+       and opposite to Don Bosco School gate.
+	   </p>
+      
+    </div>
+	</div>
+	
+	<div class="col-sm-3 bg-success">
+      <h4 style="color:blue">To reach us</h2>
+      <div class="col-sm-12 bg-success">
+       <p style="font-size:13px" align="left">
+		Contact :- Joby Poulose	</br>	
+		Mobile :- 94480 30162 </br>
+		<a href="mailto: mpjoby@gmail.com" style="font-size:12px align="left">mpjoby@gmail.com</a> </br>
+	    Kodakara Bus Stand Exit Road, </br>
+		Infront of Don Bosco Girls School.</br>
+		Kodakara PIN - 680684</br>
+		Thrissur, Kerala, India.
+	   </p>
+      
+    </div>
+	</div>
+     
+  </div>
+  </div>
+
+  <h3> 
+    <div class="w3-center" style="font-size:15px;color:blue;">Use left/right < > arrows for facility views
+    </div>
+  </h3>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="HallView.JPG" style="width:100%">
+  <img class="mySlides" src="HallView2.JPG" style="width:100%">
+  <img class="mySlides" src="HallView3.JPG" style="width:100%">
+  <img class="mySlides" src="MangalsSquare-FrontView.jpeg" style="width:100%">
+  <img class="mySlides" src="MangalsSquareSignBoard.jpg" style="width:100%">
+  <img class="mySlides" src="Parking.jpg" style="width:100%">
+  <img class="mySlides" src="DonBoscoSchoolView.JPG" style="width:100%">
+  <img class="mySlides" src="ApproachRoadBusStand.JPG" style="width:100%">
+  <img class="mySlides" src="BusStandView.JPG" style="width:100%"> 
+  <img class="mySlides" src="PanthallokaransCommercialView.JPG" style="width:100%">  
+  <img class="mySlides" src="RoadView.JPG" style="width:100%">
+
+  <button class="w3-button w3-blue w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-blue w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
